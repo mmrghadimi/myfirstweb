@@ -19,3 +19,7 @@ def new_products(request):
 
 def new_pro1(request):
     return HttpResponse('New Pro XX1')
+
+
+def wait_page(request):
+    return render(request, 'waiting.html')
